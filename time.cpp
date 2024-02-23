@@ -32,8 +32,8 @@ void time::sum(time t1, time t2)
 int main()
 {
    time T1,T2,T3;//three objects created: two to pass as arguments and T3 invokes function sum
-   T1.gettime(2,45,30);
-   T2.gettime(3,45,40);
+   T1.gettime(4,45,45);
+   T2.gettime(6,50,40);
    T3.sum(T1,T2);
    cout<<"T1= ";T1.puttime();
    cout<<"T2= ";T2.puttime();
